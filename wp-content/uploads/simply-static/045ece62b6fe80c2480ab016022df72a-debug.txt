@@ -1,648 +1,648 @@
-[2024-07-19 11:29:01] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-07-19 11:29:01] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
-[2024-07-19 11:29:01] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-07-19 11:29:02] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-07-19 11:29:02] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-07-19 11:29:02] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-07-19 11:29:02] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541\
-[2024-07-19 11:29:02] [class-ss-setup-task.php:72] Adding origin URL to queue: https://localhost/FD432Games/
-[2024-07-19 11:29:02] [class-ss-setup-task.php:137] File C:\xampp\htdocs\FD432Games\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/FD432Games/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
-[2024-07-19 11:29:02] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-07-19 11:29:02] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-07-19 11:29:02] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-07-19 11:29:02] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
-[2024-07-19 11:29:02] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/
-[2024-07-19 11:29:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
-[2024-07-19 11:29:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4dfe8542a-pVP9Ei.tmp
-[2024-07-19 11:29:02] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/?simply_static_page=202
-[2024-07-19 11:29:02] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/?simply_static_page=202
-[2024-07-19 11:29:03] [class-ss-url-fetcher.php:103] Filesize: 75776 bytes
-[2024-07-19 11:29:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-07-19 11:29:03] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2024-07-19 11:29:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4dfe8542a-pVP9Ei.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/index.html
-[2024-07-19 11:29:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:03] [class-ss-fetch-urls-task.php:159] Adding 39 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:4377d624519b82db7ab1d5121e735d471f14259b===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/FD432Games/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
-[2024-07-19 11:29:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
-[2024-07-19 11:29:04] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-07-19 11:29:04] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-07-19 11:29:04] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:69] Total pages: 40; Pages remaining: 38
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e0029386-ZMtfaY.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games?simply_static_page=204
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games?simply_static_page=204
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 360 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:204] redirect_url: https://localhost/FD432Games/
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Logo.jpg
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e00338b8-Uze47e.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/uploads/2024/07/Logo.jpg?simply_static_page=205
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Logo.jpg?simply_static_page=205
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 19821 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/Logo.jpg
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e00338b8-Uze47e.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/uploads/2024/07/Logo.jpg
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:708fed2f8ebc3668e580af0f479d00aa50ceafba===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/uploads/2024/07/tlo1.jpg
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e003b44a-Cy02Vn.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/uploads/2024/07/tlo1.jpg?simply_static_page=206
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/uploads/2024/07/tlo1.jpg?simply_static_page=206
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 734442 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/tlo1.jpg
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e003b44a-Cy02Vn.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/uploads/2024/07/tlo1.jpg
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:900a1d82833d27bba78222b46de3165873c1a601===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Bd3_1.png
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e00455d0-eeJS7n.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/uploads/2024/07/Bd3_1.png?simply_static_page=207
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Bd3_1.png?simply_static_page=207
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 332357 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/Bd3_1.png
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e00455d0-eeJS7n.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/uploads/2024/07/Bd3_1.png
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:18e774582921891031bde7c3bcb10cb5bfd92309===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/uploads/2024/07/1.png
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e004dbc6-bTnLYa.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/uploads/2024/07/1.png?simply_static_page=208
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/uploads/2024/07/1.png?simply_static_page=208
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 347372 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/1.png
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e004dbc6-bTnLYa.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/uploads/2024/07/1.png
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:13acb0a1c1406e30e680ede12ce9950d46b343f9===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Zrzut-ekranu-2024-07-19-132541.png
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e005923f-WEVIM9.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/uploads/2024/07/Zrzut-ekranu-2024-07-19-132541.png?simply_static_page=209
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Zrzut-ekranu-2024-07-19-132541.png?simply_static_page=209
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 2616759 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/Zrzut-ekranu-2024-07-19-132541.png
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e005923f-WEVIM9.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/uploads/2024/07/Zrzut-ekranu-2024-07-19-132541.png
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:93bdcaff26a5d7f65442bb681e21ebfc21cab231===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-includes/blocks/navigation/view.min.js
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e006f3ba-7puwgT.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-includes/blocks/navigation/view.min.js?simply_static_page=210
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-includes/blocks/navigation/view.min.js?simply_static_page=210
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e006f3ba-7puwgT.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-includes/blocks/navigation/view.min.js
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/feed/
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e0076cd1-7m2d0F.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/feed/?simply_static_page=211
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/feed/?simply_static_page=211
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e0076cd1-7m2d0F.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/feed/index.html
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:35fc49d65727b738c1dde50e3c0c7a6f401b0c46===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/comments/feed/
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e00874c9-55u9YG.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/comments/feed/?simply_static_page=212
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/comments/feed/?simply_static_page=212
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 1432 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e00874c9-55u9YG.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/comments/feed/index.html
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:d404c5737ca434b56bc787490e2dbc0a3dd3d3bf===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-includes/blocks/social-links/style.min.css
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e00933b1-FYwh2Y.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-includes/blocks/social-links/style.min.css?simply_static_page=213
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-includes/blocks/social-links/style.min.css?simply_static_page=213
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 11600 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e00933b1-FYwh2Y.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-includes/blocks/social-links/style.min.css
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:d31bfce420030e49e51a5714f07ff2c31b812848===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-includes/blocks/navigation/style.min.css
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e00a6d38-NKtYD1.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-includes/blocks/navigation/style.min.css?simply_static_page=214
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-includes/blocks/navigation/style.min.css?simply_static_page=214
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 16507 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e00a6d38-NKtYD1.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-includes/blocks/navigation/style.min.css
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:3f9447f88ef4d652793fad20535ffabadd59af1a===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-includes/blocks/cover/style.min.css
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e00ba7d7-UHUGpt.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-includes/blocks/cover/style.min.css?simply_static_page=215
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-includes/blocks/cover/style.min.css?simply_static_page=215
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 17950 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/cover/style.min.css
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e00ba7d7-UHUGpt.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-includes/blocks/cover/style.min.css
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:62c549867e546e9b70dbba51b299d0a884dd5df3===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e00d0ada-Fhn1La.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?simply_static_page=216
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?simply_static_page=216
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 2782 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e00d0ada-Fhn1La.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:67f4e3e6619d2a1aac209876d35e1eb74ef703b2===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/css/build/style.css
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e00daa0f-2PUtHR.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/css/build/style.css?simply_static_page=217
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/css/build/style.css?simply_static_page=217
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 6622 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/css/build/style.css
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e00daa0f-2PUtHR.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/css/build/style.css
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:04] [class-ss-page.php:118] Checking Content Identical:38711d64986322e3498b256326892c634c490403===. Value: FALSE
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-json/
-[2024-07-19 11:29:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 40
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e00e6707-H2Bhev.tmp
-[2024-07-19 11:29:04] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-json/?simply_static_page=218
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-json/?simply_static_page=218
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:103] Filesize: 192403 bytes
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
-[2024-07-19 11:29:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e00e6707-H2Bhev.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-json/index.html
-[2024-07-19 11:29:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:71b4fa8a403d556009efe3d789d422c57a9009db===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/xmlrpc.php
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: https://localhost/FD432Games/xmlrpc.php
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-includes/js/dist/interactivity.min.js
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e0120101-yuiOFD.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-includes/js/dist/interactivity.min.js?simply_static_page=220
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-includes/js/dist/interactivity.min.js?simply_static_page=220
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e0120101-yuiOFD.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-includes/js/dist/interactivity.min.js
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/inter/Inter-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e012d41e-DiebB7.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/inter/Inter-VariableFont_wght.ttf?simply_static_page=221
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/inter/Inter-VariableFont_wght.ttf?simply_static_page=221
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 803384 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/inter/Inter-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e012d41e-DiebB7.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/inter/Inter-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:44b415f3b0ac1da7f3044ba6bcc542a649d4a447===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e0139aea-6ZzAfr.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf?simply_static_page=222
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf?simply_static_page=222
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 128420 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e0139aea-6ZzAfr.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:b4bcca157e52fdaba0b315afe3378d9ddba6e1dc===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e0141e30-oquI0H.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf?simply_static_page=223
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf?simply_static_page=223
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 141380 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e0141e30-oquI0H.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:771c0c91a68a04a53c650a8682d5d40f25cb254d===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e0149f33-kAvsof.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf?simply_static_page=224
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf?simply_static_page=224
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 357632 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e0149f33-kAvsof.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:4b74bfd08dd86caaf307a875b6f027198b29f337===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e01530c5-zAFmO4.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-Italic-VariableFont_wght.ttf?simply_static_page=225
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-Italic-VariableFont_wght.ttf?simply_static_page=225
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 407304 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e01530c5-zAFmO4.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:0552b0eb9e25b1bfba4e43b8bc8e9f022afeb109===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e015d9cd-4GUy3f.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf?simply_static_page=226
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf?simply_static_page=226
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 129508 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e015d9cd-4GUy3f.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:5fc7565aa0e1166f46c33c2ae3b710680eb4b81b===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e01660c5-M375Tz.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf?simply_static_page=227
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf?simply_static_page=227
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 138676 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e01660c5-M375Tz.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:c8043c2db9557cfc736fdaa0189ee5da5f4e7443===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/outfit/Outfit-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e016e6f6-6pbwc3.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/outfit/Outfit-VariableFont_wght.ttf?simply_static_page=228
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/outfit/Outfit-VariableFont_wght.ttf?simply_static_page=228
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 75856 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/outfit/Outfit-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e016e6f6-6pbwc3.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/outfit/Outfit-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:c6f27b9debf80ecaf0ac866b0edc25519825730a===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/spline-sans/SplineSans-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e0177b23-46qYpp.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/spline-sans/SplineSans-VariableFont_wght.ttf?simply_static_page=229
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/spline-sans/SplineSans-VariableFont_wght.ttf?simply_static_page=229
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 143784 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/spline-sans/SplineSans-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e0177b23-46qYpp.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/spline-sans/SplineSans-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:87d1bec4adac0fe22ae173c97713dd54c768a9ec===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e017f882-csWtYf.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf?simply_static_page=230
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf?simply_static_page=230
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 298268 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e017f882-csWtYf.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:498c73c1c9ba334f4764af03435adc02ef3c5100===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e0189cba-RlxueJ.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf?simply_static_page=231
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf?simply_static_page=231
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 277356 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e0189cba-RlxueJ.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:a0c167b7600982961c56467c8dfe0bd6dd787743===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e0193257-j46PIs.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf?simply_static_page=232
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf?simply_static_page=232
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 248132 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e0193257-j46PIs.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:48d6928e08ba5e2ca1e15d754c146580b1c8febd===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e019c9d0-mwvcFf.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf?simply_static_page=233
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf?simply_static_page=233
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 109456 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e019c9d0-mwvcFf.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:1c774bad0dad64ee30d7f2e71e89891870a2d304===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e01a40ae-ilCuym.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf?simply_static_page=234
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf?simply_static_page=234
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 247412 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e01a40ae-ilCuym.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:167ac25366e252f07c090a8113910337f3d5255b===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e01ac381-MsVqoe.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf?simply_static_page=235
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf?simply_static_page=235
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 109148 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e01ac381-MsVqoe.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:c320303ae126e23bd566d412916f68cc347d573f===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e01b4412-hlwDNv.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf?simply_static_page=236
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf?simply_static_page=236
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 394140 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e01b4412-hlwDNv.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:b30f63a27bcdc61c2458d0ddfbbe738a01e39714===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e01bd396-q2W4iE.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf?simply_static_page=237
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf?simply_static_page=237
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:103] Filesize: 404112 bytes
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e01bd396-q2W4iE.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:05] [class-ss-page.php:118] Checking Content Identical:df1a17b6a12a7518575abe3f5cdc1d6cb0c7b390===. Value: FALSE
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf
-[2024-07-19 11:29:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 40
-[2024-07-19 11:29:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e01c9307-JZJUsB.tmp
-[2024-07-19 11:29:05] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf?simply_static_page=238
-[2024-07-19 11:29:05] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf?simply_static_page=238
-[2024-07-19 11:29:06] [class-ss-url-fetcher.php:103] Filesize: 60351 bytes
-[2024-07-19 11:29:06] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-07-19 11:29:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-07-19 11:29:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e02a863d-drKl3k.tmp
-[2024-07-19 11:29:06] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf
-[2024-07-19 11:29:07] [class-ss-url-fetcher.php:103] Filesize: 60351 bytes
-[2024-07-19 11:29:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-07-19 11:29:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-07-19 11:29:07] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 40
-[2024-07-19 11:29:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e03a6cb2-TctHG4.tmp
-[2024-07-19 11:29:07] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf?simply_static_page=239
-[2024-07-19 11:29:07] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf?simply_static_page=239
-[2024-07-19 11:29:08] [class-ss-url-fetcher.php:103] Filesize: 60351 bytes
-[2024-07-19 11:29:08] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-07-19 11:29:08] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-07-19 11:29:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e04856f1-wkJfhK.tmp
-[2024-07-19 11:29:08] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:103] Filesize: 60351 bytes
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-VariableFont_wght.ttf
-[2024-07-19 11:29:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 40
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e056507b-3w3F48.tmp
-[2024-07-19 11:29:09] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-VariableFont_wght.ttf?simply_static_page=240
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-VariableFont_wght.ttf?simply_static_page=240
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:103] Filesize: 60660 bytes
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-VariableFont_wght.ttf
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e056507b-3w3F48.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-VariableFont_wght.ttf
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:09] [class-ss-page.php:118] Checking Content Identical:363c3a12210a1d097a861c98874294829c19279e===. Value: FALSE
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 40
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e056d511-bK2JOQ.tmp
-[2024-07-19 11:29:09] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf?simply_static_page=241
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf?simply_static_page=241
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:103] Filesize: 60764 bytes
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e056d511-bK2JOQ.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:09] [class-ss-page.php:118] Checking Content Identical:e5d96c307ec6582b55673fc162d76d50dad556df===. Value: FALSE
-[2024-07-19 11:29:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 40 pages/files
-[2024-07-19 11:29:09] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-07-19 11:29:09] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-07-19 11:29:09] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:69] Total pages: 41; Pages remaining: 1
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/feed/index.xml
-[2024-07-19 11:29:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 41
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e057b149-IVw2Ca.tmp
-[2024-07-19 11:29:09] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/feed/index.xml?simply_static_page=242
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/feed/index.xml?simply_static_page=242
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:103] Filesize: 1801 bytes
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e057b149-IVw2Ca.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541/feed/index.xml
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-19 11:29:09] [class-ss-page.php:118] Checking Content Identical:afada541e6da2ab158bcf5aa5a5fbd1b14adf37d===. Value: FALSE
-[2024-07-19 11:29:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 40 of 41 pages/files
-[2024-07-19 11:29:09] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-07-19 11:29:09] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-07-19 11:29:09] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-07-19 11:29:09] [class-ss-fetch-urls-task.php:69] Total pages: 41; Pages remaining: 0
-[2024-07-19 11:29:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 41 of 41 pages/files
-[2024-07-19 11:29:09] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
-[2024-07-19 11:29:09] [class-ss-archive-creation-job.php:136] Current task: generate_404
-[2024-07-19 11:29:09] [class-ss-archive-creation-job.php:153] Performing task: generate_404
-[2024-07-19 11:29:09] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e0587275-kioSKj.tmp
-[2024-07-19 11:29:09] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/1721388550?simply_static_page=0
-[2024-07-19 11:29:09] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/1721388550?simply_static_page=0
-[2024-07-19 11:29:10] [class-ss-url-fetcher.php:103] Filesize: 60351 bytes
-[2024-07-19 11:29:10] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-07-19 11:29:10] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2024-07-19 11:29:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e0587275-kioSKj.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388541\404/index.html
-[2024-07-19 11:29:10] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2024-07-19 11:29:10] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2024-07-19 11:29:10] [class-ss-page.php:118] Checking Content Identical:f129cb2a22ffdf33b1eb6ec037c8b162ef6dd71b===. Value: FALSE
-[2024-07-19 11:29:10] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2024-07-19 11:29:10] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
-[2024-07-19 11:29:10] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
-[2024-07-19 11:29:10] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
-[2024-07-19 11:29:10] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 36 of 36 files
-[2024-07-19 11:29:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/
-[2024-07-19 11:29:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/uploads/2024/07
-[2024-07-19 11:29:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/uploads/2024/07
-[2024-07-19 11:29:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/uploads/2024/07
-[2024-07-19 11:29:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/uploads/2024/07
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/uploads/2024/07
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-includes/blocks/navigation
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/feed
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/comments/feed
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-includes/blocks/social-links
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-includes/blocks/navigation
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-includes/blocks/cover
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/plugins/complianz-gdpr/assets/css
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/css/build
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-json
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-includes/js/dist
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/inter
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/outfit
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/spline-sans
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/feed
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:36. Processed Pages: 36
-[2024-07-19 11:29:11] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 36 of 36 files
-[2024-07-19 11:29:11] [trait-can-process-pages.php:103] Total pages: 36; Pages remaining: 0
-[2024-07-19 11:29:11] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
-[2024-07-19 11:29:11] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://dawidfilipak.github.io/FD432Games/" target="_blank">https://dawidfilipak.github.io/FD432Games/</a>
-[2024-07-19 11:29:11] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-07-19 11:29:11] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-07-19 11:29:11] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-07-19 11:29:11] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-07-19 11:29:11] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-07-19 11:29:11] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-07-19 11:29:11] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-07-19 11:29:11] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:10
+[2024-07-19 11:30:53] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-07-19 11:30:53] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-07-19 11:30:53] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-07-19 11:30:53] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-07-19 11:30:53] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-07-19 11:30:53] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-07-19 11:30:53] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653\
+[2024-07-19 11:30:53] [class-ss-setup-task.php:72] Adding origin URL to queue: https://localhost/FD432Games/
+[2024-07-19 11:30:54] [class-ss-setup-task.php:137] File C:\xampp\htdocs\FD432Games\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/FD432Games/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-19 11:30:54] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-07-19 11:30:54] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-19 11:30:54] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-19 11:30:54] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-07-19 11:30:54] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/
+[2024-07-19 11:30:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-07-19 11:30:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6e07716-f0lQoD.tmp
+[2024-07-19 11:30:54] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/?simply_static_page=243
+[2024-07-19 11:30:54] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/?simply_static_page=243
+[2024-07-19 11:30:54] [class-ss-url-fetcher.php:103] Filesize: 75157 bytes
+[2024-07-19 11:30:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-19 11:30:54] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-07-19 11:30:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e6e07716-f0lQoD.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/index.html
+[2024-07-19 11:30:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:159] Adding 39 URLs to the queue
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:55] [class-ss-page.php:118] Checking Content Identical:348a06cf799e2f876d77b2f60ad7d33d4a04885f===. Value: FALSE
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/FD432Games/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-07-19 11:30:55] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-07-19 11:30:55] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-19 11:30:55] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-19 11:30:55] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:69] Total pages: 40; Pages remaining: 38
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 40
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6f6d215-hoBAV0.tmp
+[2024-07-19 11:30:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games?simply_static_page=245
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games?simply_static_page=245
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:103] Filesize: 360 bytes
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:204] redirect_url: https://localhost/FD432Games/
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Logo.jpg
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 40
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6f79ff1-vPnhk6.tmp
+[2024-07-19 11:30:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/uploads/2024/07/Logo.jpg?simply_static_page=246
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Logo.jpg?simply_static_page=246
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:103] Filesize: 19821 bytes
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/Logo.jpg
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e6f79ff1-vPnhk6.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/uploads/2024/07/Logo.jpg
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:55] [class-ss-page.php:118] Checking Content Identical:708fed2f8ebc3668e580af0f479d00aa50ceafba===. Value: FALSE
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/uploads/2024/07/tlo1.jpg
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 40
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6f85dc7-t01YBm.tmp
+[2024-07-19 11:30:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/uploads/2024/07/tlo1.jpg?simply_static_page=247
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/uploads/2024/07/tlo1.jpg?simply_static_page=247
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:103] Filesize: 734442 bytes
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/tlo1.jpg
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e6f85dc7-t01YBm.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/uploads/2024/07/tlo1.jpg
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:55] [class-ss-page.php:118] Checking Content Identical:900a1d82833d27bba78222b46de3165873c1a601===. Value: FALSE
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Bd3_1.png
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 40
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6f93f3d-YZzMna.tmp
+[2024-07-19 11:30:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/uploads/2024/07/Bd3_1.png?simply_static_page=248
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Bd3_1.png?simply_static_page=248
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:103] Filesize: 332357 bytes
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/Bd3_1.png
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e6f93f3d-YZzMna.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/uploads/2024/07/Bd3_1.png
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:55] [class-ss-page.php:118] Checking Content Identical:18e774582921891031bde7c3bcb10cb5bfd92309===. Value: FALSE
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/uploads/2024/07/1.png
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 40
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6fa1c45-hh4buL.tmp
+[2024-07-19 11:30:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/uploads/2024/07/1.png?simply_static_page=249
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/uploads/2024/07/1.png?simply_static_page=249
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:103] Filesize: 347372 bytes
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/1.png
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e6fa1c45-hh4buL.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/uploads/2024/07/1.png
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:55] [class-ss-page.php:118] Checking Content Identical:13acb0a1c1406e30e680ede12ce9950d46b343f9===. Value: FALSE
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Zrzut-ekranu-2024-07-19-132541.png
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 40
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6fad5a3-MM6ORy.tmp
+[2024-07-19 11:30:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/uploads/2024/07/Zrzut-ekranu-2024-07-19-132541.png?simply_static_page=250
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/uploads/2024/07/Zrzut-ekranu-2024-07-19-132541.png?simply_static_page=250
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:103] Filesize: 2616759 bytes
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/07/Zrzut-ekranu-2024-07-19-132541.png
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e6fad5a3-MM6ORy.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/uploads/2024/07/Zrzut-ekranu-2024-07-19-132541.png
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:55] [class-ss-page.php:118] Checking Content Identical:93bdcaff26a5d7f65442bb681e21ebfc21cab231===. Value: FALSE
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-includes/blocks/navigation/view.min.js
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 40
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6fc09ce-2CmUmx.tmp
+[2024-07-19 11:30:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-includes/blocks/navigation/view.min.js?simply_static_page=251
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-includes/blocks/navigation/view.min.js?simply_static_page=251
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e6fc09ce-2CmUmx.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-includes/blocks/navigation/view.min.js
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:55] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/feed/
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 40
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6fcdb4d-g0BPaZ.tmp
+[2024-07-19 11:30:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/feed/?simply_static_page=252
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/feed/?simply_static_page=252
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e6fcdb4d-g0BPaZ.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/feed/index.html
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:55] [class-ss-page.php:118] Checking Content Identical:35fc49d65727b738c1dde50e3c0c7a6f401b0c46===. Value: FALSE
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/comments/feed/
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 40
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6fdcc30-awXCVM.tmp
+[2024-07-19 11:30:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/comments/feed/?simply_static_page=253
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/comments/feed/?simply_static_page=253
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:103] Filesize: 1432 bytes
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e6fdcc30-awXCVM.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/comments/feed/index.html
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:55] [class-ss-page.php:118] Checking Content Identical:d404c5737ca434b56bc787490e2dbc0a3dd3d3bf===. Value: FALSE
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-includes/blocks/social-links/style.min.css
+[2024-07-19 11:30:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 40
+[2024-07-19 11:30:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e6febbe7-Zu46Sg.tmp
+[2024-07-19 11:30:55] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-includes/blocks/social-links/style.min.css?simply_static_page=254
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-includes/blocks/social-links/style.min.css?simply_static_page=254
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:103] Filesize: 11600 bytes
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2024-07-19 11:30:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e6febbe7-Zu46Sg.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-includes/blocks/social-links/style.min.css
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:d31bfce420030e49e51a5714f07ff2c31b812848===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-includes/blocks/navigation/style.min.css
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e7009cc7-cMjgLM.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-includes/blocks/navigation/style.min.css?simply_static_page=255
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-includes/blocks/navigation/style.min.css?simply_static_page=255
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 16507 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e7009cc7-cMjgLM.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-includes/blocks/navigation/style.min.css
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:3f9447f88ef4d652793fad20535ffabadd59af1a===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-includes/blocks/cover/style.min.css
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e701da97-bc6mbC.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-includes/blocks/cover/style.min.css?simply_static_page=256
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-includes/blocks/cover/style.min.css?simply_static_page=256
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 17950 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/cover/style.min.css
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e701da97-bc6mbC.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-includes/blocks/cover/style.min.css
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:62c549867e546e9b70dbba51b299d0a884dd5df3===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e702c38d-CEoCPs.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?simply_static_page=257
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?simply_static_page=257
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 2782 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e702c38d-CEoCPs.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:67f4e3e6619d2a1aac209876d35e1eb74ef703b2===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/css/build/style.css
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e703a965-ItJfwZ.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/css/build/style.css?simply_static_page=258
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/css/build/style.css?simply_static_page=258
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 6622 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/css/build/style.css
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e703a965-ItJfwZ.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/css/build/style.css
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:38711d64986322e3498b256326892c634c490403===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-json/
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e7043b9b-GNNY1d.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-json/?simply_static_page=259
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-json/?simply_static_page=259
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 192403 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e7043b9b-GNNY1d.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-json/index.html
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:71b4fa8a403d556009efe3d789d422c57a9009db===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/xmlrpc.php
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: https://localhost/FD432Games/xmlrpc.php
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-includes/js/dist/interactivity.min.js
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e706dac8-Ld4QvL.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-includes/js/dist/interactivity.min.js?simply_static_page=261
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-includes/js/dist/interactivity.min.js?simply_static_page=261
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e706dac8-Ld4QvL.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-includes/js/dist/interactivity.min.js
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/inter/Inter-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e707e59d-xRzaoW.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/inter/Inter-VariableFont_wght.ttf?simply_static_page=262
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/inter/Inter-VariableFont_wght.ttf?simply_static_page=262
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 803384 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/inter/Inter-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e707e59d-xRzaoW.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/inter/Inter-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:44b415f3b0ac1da7f3044ba6bcc542a649d4a447===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e708c11b-Ztiu9V.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf?simply_static_page=263
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf?simply_static_page=263
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 128420 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e708c11b-Ztiu9V.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:b4bcca157e52fdaba0b315afe3378d9ddba6e1dc===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e709461d-fnKOQ2.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf?simply_static_page=264
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf?simply_static_page=264
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 141380 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e709461d-fnKOQ2.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:771c0c91a68a04a53c650a8682d5d40f25cb254d===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e70a00fa-7Tvws5.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf?simply_static_page=265
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf?simply_static_page=265
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 357632 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e70a00fa-7Tvws5.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:4b74bfd08dd86caaf307a875b6f027198b29f337===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e70a9a71-2nAUWL.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-Italic-VariableFont_wght.ttf?simply_static_page=266
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-Italic-VariableFont_wght.ttf?simply_static_page=266
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 407304 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e70a9a71-2nAUWL.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/fraunces/Fraunces-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:0552b0eb9e25b1bfba4e43b8bc8e9f022afeb109===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e70b2b0c-KjTosR.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf?simply_static_page=267
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf?simply_static_page=267
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 129508 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e70b2b0c-KjTosR.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:5fc7565aa0e1166f46c33c2ae3b710680eb4b81b===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e70bb092-oIFeQ3.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf?simply_static_page=268
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf?simply_static_page=268
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 138676 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e70bb092-oIFeQ3.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:c8043c2db9557cfc736fdaa0189ee5da5f4e7443===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/outfit/Outfit-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e70c590c-W0cjqG.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/outfit/Outfit-VariableFont_wght.ttf?simply_static_page=269
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/outfit/Outfit-VariableFont_wght.ttf?simply_static_page=269
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 75856 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/outfit/Outfit-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e70c590c-W0cjqG.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/outfit/Outfit-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:c6f27b9debf80ecaf0ac866b0edc25519825730a===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/spline-sans/SplineSans-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e70d0909-0OC6ct.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/spline-sans/SplineSans-VariableFont_wght.ttf?simply_static_page=270
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/spline-sans/SplineSans-VariableFont_wght.ttf?simply_static_page=270
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 143784 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/spline-sans/SplineSans-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e70d0909-0OC6ct.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/spline-sans/SplineSans-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:87d1bec4adac0fe22ae173c97713dd54c768a9ec===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e70d8c01-WoQkc7.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf?simply_static_page=271
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf?simply_static_page=271
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 298268 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e70d8c01-WoQkc7.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:498c73c1c9ba334f4764af03435adc02ef3c5100===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e70e19e2-iJ2xtx.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf?simply_static_page=272
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf?simply_static_page=272
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 277356 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e70e19e2-iJ2xtx.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:56] [class-ss-page.php:118] Checking Content Identical:a0c167b7600982961c56467c8dfe0bd6dd787743===. Value: FALSE
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf
+[2024-07-19 11:30:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 40
+[2024-07-19 11:30:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e70ef405-J8y3kk.tmp
+[2024-07-19 11:30:56] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf?simply_static_page=273
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf?simply_static_page=273
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:103] Filesize: 248132 bytes
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf
+[2024-07-19 11:30:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e70ef405-J8y3kk.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:57] [class-ss-page.php:118] Checking Content Identical:48d6928e08ba5e2ca1e15d754c146580b1c8febd===. Value: FALSE
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf
+[2024-07-19 11:30:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 40
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e71040f8-s1Amij.tmp
+[2024-07-19 11:30:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf?simply_static_page=274
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf?simply_static_page=274
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:103] Filesize: 109456 bytes
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e71040f8-s1Amij.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:57] [class-ss-page.php:118] Checking Content Identical:1c774bad0dad64ee30d7f2e71e89891870a2d304===. Value: FALSE
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf
+[2024-07-19 11:30:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 40
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e710ba89-1edw6q.tmp
+[2024-07-19 11:30:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf?simply_static_page=275
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf?simply_static_page=275
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:103] Filesize: 247412 bytes
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e710ba89-1edw6q.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:57] [class-ss-page.php:118] Checking Content Identical:167ac25366e252f07c090a8113910337f3d5255b===. Value: FALSE
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf
+[2024-07-19 11:30:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 40
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e71141ec-gK0X2U.tmp
+[2024-07-19 11:30:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf?simply_static_page=276
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf?simply_static_page=276
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:103] Filesize: 109148 bytes
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e71141ec-gK0X2U.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:57] [class-ss-page.php:118] Checking Content Identical:c320303ae126e23bd566d412916f68cc347d573f===. Value: FALSE
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf
+[2024-07-19 11:30:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 40
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e711c266-HiY0rY.tmp
+[2024-07-19 11:30:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf?simply_static_page=277
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf?simply_static_page=277
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:103] Filesize: 394140 bytes
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e711c266-HiY0rY.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:57] [class-ss-page.php:118] Checking Content Identical:b30f63a27bcdc61c2458d0ddfbbe738a01e39714===. Value: FALSE
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 40
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e7125ecb-eVkoQi.tmp
+[2024-07-19 11:30:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf?simply_static_page=278
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf?simply_static_page=278
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:103] Filesize: 404112 bytes
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e7125ecb-eVkoQi.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:30:57] [class-ss-page.php:118] Checking Content Identical:df1a17b6a12a7518575abe3f5cdc1d6cb0c7b390===. Value: FALSE
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf
+[2024-07-19 11:30:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 40
+[2024-07-19 11:30:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e71352e1-3PX5Oq.tmp
+[2024-07-19 11:30:57] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf?simply_static_page=279
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf?simply_static_page=279
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:103] Filesize: 60351 bytes
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-19 11:30:57] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-19 11:30:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e72033b0-SxwTn5.tmp
+[2024-07-19 11:30:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf
+[2024-07-19 11:30:58] [class-ss-url-fetcher.php:103] Filesize: 60351 bytes
+[2024-07-19 11:30:58] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-19 11:30:58] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-19 11:30:58] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf
+[2024-07-19 11:30:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 40
+[2024-07-19 11:30:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:30:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e72e13da-LO7Fsc.tmp
+[2024-07-19 11:30:58] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf?simply_static_page=280
+[2024-07-19 11:30:58] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf?simply_static_page=280
+[2024-07-19 11:30:59] [class-ss-url-fetcher.php:103] Filesize: 60351 bytes
+[2024-07-19 11:30:59] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-19 11:30:59] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-19 11:30:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e73b14e9-Mky2PA.tmp
+[2024-07-19 11:30:59] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:103] Filesize: 60351 bytes
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-VariableFont_wght.ttf
+[2024-07-19 11:31:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 40
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e7487f52-NI4e2n.tmp
+[2024-07-19 11:31:00] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-VariableFont_wght.ttf?simply_static_page=281
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-VariableFont_wght.ttf?simply_static_page=281
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:103] Filesize: 60660 bytes
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-VariableFont_wght.ttf
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e7487f52-NI4e2n.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-VariableFont_wght.ttf
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:31:00] [class-ss-page.php:118] Checking Content Identical:363c3a12210a1d097a861c98874294829c19279e===. Value: FALSE
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf
+[2024-07-19 11:31:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 40
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e748f877-9VT12f.tmp
+[2024-07-19 11:31:00] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf?simply_static_page=282
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf?simply_static_page=282
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:103] Filesize: 60764 bytes
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e748f877-9VT12f.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/wp-content/themes/neve-fse/assets/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:31:00] [class-ss-page.php:118] Checking Content Identical:e5d96c307ec6582b55673fc162d76d50dad556df===. Value: FALSE
+[2024-07-19 11:31:00] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 40 pages/files
+[2024-07-19 11:31:00] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-19 11:31:00] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-19 11:31:00] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:69] Total pages: 41; Pages remaining: 1
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:72] URL: https://localhost/FD432Games/feed/index.xml
+[2024-07-19 11:31:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 41
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e749e7e7-k3d3eV.tmp
+[2024-07-19 11:31:00] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/feed/index.xml?simply_static_page=283
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/feed/index.xml?simply_static_page=283
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:103] Filesize: 1801 bytes
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e749e7e7-k3d3eV.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653/feed/index.xml
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-19 11:31:00] [class-ss-page.php:118] Checking Content Identical:afada541e6da2ab158bcf5aa5a5fbd1b14adf37d===. Value: FALSE
+[2024-07-19 11:31:00] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 40 of 41 pages/files
+[2024-07-19 11:31:00] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-19 11:31:00] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-19 11:31:00] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-19 11:31:00] [class-ss-fetch-urls-task.php:69] Total pages: 41; Pages remaining: 0
+[2024-07-19 11:31:00] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 41 of 41 pages/files
+[2024-07-19 11:31:00] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-07-19 11:31:00] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-07-19 11:31:00] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-07-19 11:31:00] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\admin\AppData\Local\Temp/669a4e74afb4f-T5LbWt.tmp
+[2024-07-19 11:31:00] [class-ss-page-handler.php:38] URL Prepared:https://localhost/FD432Games/1721388661?simply_static_page=0
+[2024-07-19 11:31:00] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/FD432Games/1721388661?simply_static_page=0
+[2024-07-19 11:31:01] [class-ss-url-fetcher.php:103] Filesize: 60351 bytes
+[2024-07-19 11:31:01] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-19 11:31:01] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-07-19 11:31:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\admin\AppData\Local\Temp/669a4e74afb4f-T5LbWt.tmp to C:\xampp\htdocs\FD432Games/wp-content/uploads\simply-static\temp-files/simply-static-1-1721388653\404/index.html
+[2024-07-19 11:31:01] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-07-19 11:31:02] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-07-19 11:31:02] [class-ss-page.php:118] Checking Content Identical:d16ed21527b9e4c8abeb100e56d56170febeccb5===. Value: FALSE
+[2024-07-19 11:31:02] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-07-19 11:31:02] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-07-19 11:31:02] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-07-19 11:31:02] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-07-19 11:31:02] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 36 of 36 files
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/uploads/2024/07
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/uploads/2024/07
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/uploads/2024/07
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/uploads/2024/07
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/uploads/2024/07
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-includes/blocks/navigation
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/feed
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/comments/feed
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-includes/blocks/social-links
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-includes/blocks/navigation
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-includes/blocks/cover
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/plugins/complianz-gdpr/assets/css
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/css/build
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-json
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-includes/js/dist
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/inter
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/albert-sans
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/fraunces
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/hanken-grotesk
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/outfit
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/spline-sans
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/playfair-display
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/source-sans-pro
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/montserrat
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/wp-content/themes/neve-fse/assets/fonts/figtree
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FD432Games/feed
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:36. Processed Pages: 36
+[2024-07-19 11:31:02] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 36 of 36 files
+[2024-07-19 11:31:02] [trait-can-process-pages.php:103] Total pages: 36; Pages remaining: 0
+[2024-07-19 11:31:02] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-07-19 11:31:02] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://dawidfilipak.github.io/FD432Games/" target="_blank">https://dawidfilipak.github.io/FD432Games/</a>
+[2024-07-19 11:31:02] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-07-19 11:31:02] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-07-19 11:31:02] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-07-19 11:31:02] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-07-19 11:31:02] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-07-19 11:31:02] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-07-19 11:31:02] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-07-19 11:31:02] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:09
