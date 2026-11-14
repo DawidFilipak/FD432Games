@@ -1,0 +1,260 @@
+{
+  "site": {
+    "url": "https://fd432games.com",
+    "name": "FD432Games"
+  },
+
+  "ui": {
+    "en": {
+      "locale": "en_US",
+      "lang_name": "English",
+      "skip": "Skip to content",
+      "nav_label": "Main",
+      "nav_games": "Games",
+      "nav_studio": "Studio",
+      "home_title": "FD432Games — indie mobile games",
+      "home_desc": "FD432Games is an independent game studio making free, offline mobile games with satisfying physics: Neon Bounce, Block Down and more.",
+      "hero_eyebrow": "Independent game studio",
+      "hero_title_html": "Pick up in a second.<br><em>Play for hours.</em>",
+      "hero_lead": "FD432Games makes mobile games with satisfying physics, clear goals and no internet required. Every game has its own look — the FD mark ties them together.",
+      "cta_games": "See our games",
+      "cta_studio": "About the studio",
+      "games_title": "Our games",
+      "games_lead": "Free to play on Android.",
+      "play_btn": "Get it on Google Play",
+      "play_short": "Google Play",
+      "details_btn": "Details",
+      "details_aria": "More about {name}",
+      "in_dev": "In development",
+      "studio_title": "About the studio",
+      "studio_text": [
+        "FD432Games is an independent game studio from Poland. We design, code and polish our games ourselves — from the first prototype to the store page.",
+        "We like games that explain themselves in one tap: aim, shoot and let physics do the rest. They're free, work offline and fit a two-minute break just as well as a long evening."
+      ],
+      "studio_tags": ["Mobile games", "Physics", "Offline", "Free to play"],
+      "crumb_games": "Games",
+      "screens_title": "Screenshots",
+      "video_label": "Trailer",
+      "screens_open": "Open screenshot {n} of {name}",
+      "about_game": "About the game",
+      "howto_title": "How to play",
+      "features_title": "Features",
+      "more_games": "More games",
+      "fact_platform": "Platform",
+      "fact_price": "Price",
+      "fact_price_val": "Free",
+      "fact_mode": "Mode",
+      "fact_mode_val": "Offline",
+      "close": "Close",
+      "rights": "All rights reserved.",
+      "footer_games": "Games",
+      "footer_studio": "Studio"
+    },
+    "pl": {
+      "locale": "pl_PL",
+      "lang_name": "Polski",
+      "skip": "Przejdź do treści",
+      "nav_label": "Główna",
+      "nav_games": "Gry",
+      "nav_studio": "Studio",
+      "home_title": "FD432Games — niezależne gry mobilne",
+      "home_desc": "FD432Games to niezależne studio tworzące darmowe gry mobilne offline z satysfakcjonującą fizyką: Neon Bounce, Block Down i inne.",
+      "hero_eyebrow": "Niezależne studio gier",
+      "hero_title_html": "Włączasz na chwilę.<br><em>Grasz godzinami.</em>",
+      "hero_lead": "FD432Games tworzy gry mobilne z satysfakcjonującą fizyką, jasnym celem i bez potrzeby internetu. Każda gra ma własny styl — łączy je znak FD.",
+      "cta_games": "Zobacz nasze gry",
+      "cta_studio": "O studiu",
+      "games_title": "Nasze gry",
+      "games_lead": "Za darmo na Androida.",
+      "play_btn": "Pobierz z Google Play",
+      "play_short": "Google Play",
+      "details_btn": "Szczegóły",
+      "details_aria": "Więcej o grze {name}",
+      "in_dev": "W produkcji",
+      "studio_title": "O studiu",
+      "studio_text": [
+        "FD432Games to niezależne studio gier z Polski. Gry projektujemy, programujemy i dopracowujemy sami — od pierwszego prototypu po stronę w sklepie.",
+        "Lubimy gry, które tłumaczą się jednym dotknięciem: celujesz, strzelasz, a resztę robi fizyka. Są darmowe, działają offline i pasują zarówno do dwuminutowej przerwy, jak i do długiego wieczoru."
+      ],
+      "studio_tags": ["Gry mobilne", "Fizyka", "Offline", "Za darmo"],
+      "crumb_games": "Gry",
+      "screens_title": "Zrzuty ekranu",
+      "video_label": "Zwiastun",
+      "screens_open": "Otwórz zrzut ekranu {n} z gry {name}",
+      "about_game": "O grze",
+      "howto_title": "Jak grać",
+      "features_title": "Co znajdziesz w grze",
+      "more_games": "Inne gry",
+      "fact_platform": "Platforma",
+      "fact_price": "Cena",
+      "fact_price_val": "Za darmo",
+      "fact_mode": "Tryb",
+      "fact_mode_val": "Offline",
+      "close": "Zamknij",
+      "rights": "Wszelkie prawa zastrzeżone.",
+      "footer_games": "Gry",
+      "footer_studio": "Studio"
+    }
+  },
+
+  "games": [
+    {
+      "slug": "neon-bounce",
+      "old_slugs": ["shooting-balls-into-blocks", "shooting-balls-into-blocks-2"],
+      "status": "released",
+      "orientation": "portrait",
+      "theme": { "accent": "#2ee6f0", "ink": "#00242a", "bg": "#2c2470", "bg2": "#120f36" },
+      "play_url": "https://play.google.com/store/apps/details?id=com.FD432Games.Shootingballsintoblocks",
+      "cover": "neon-bounce-cover.webp",
+      "video": {
+        "src": { "en": "neon-bounce-en.mp4", "pl": "neon-bounce-pl.mp4" },
+        "poster": { "en": "neon-bounce-poster-en.webp", "pl": "neon-bounce-poster-pl.webp" },
+        "width": 1080, "height": 1920
+      },
+      "shots": {
+        "en": ["neon-bounce-en-1.webp", "neon-bounce-en-2.webp", "neon-bounce-en-3.webp", "neon-bounce-en-4.webp", "neon-bounce-en-5.webp", "neon-bounce-en-6.webp"],
+        "pl": ["neon-bounce-pl-1.webp", "neon-bounce-pl-2.webp", "neon-bounce-pl-3.webp", "neon-bounce-pl-4.webp", "neon-bounce-pl-5.webp", "neon-bounce-pl-6.webp"]
+      },
+      "shot_size": [720, 1280],
+      "en": {
+        "name": "Neon Bounce",
+        "full_name": "Neon Bounce: Brick Breaker",
+        "tagline": "Aim, shoot and bounce hundreds of balls. Smash bricks, chain combos, beat bosses!",
+        "summary": "A neon brick breaker where one shot sends hundreds of balls ricocheting across the board — and every hit plays a note.",
+        "description": [
+          "Aim, shoot and watch hundreds of balls ricochet across a glowing neon board. Every hit is a note: chain hits in a single shot and the bricks play a melody that rises with your combo.",
+          "Every 10 levels you pick one of three upgrades — extra balls, more power, lasers, a breather or a purge of the bottom row — so no two runs feel the same. Every 25 levels a giant boss brick drops onto the board. Take it down for diamonds."
+        ],
+        "features": [
+          ["Hits that make music", "Chain hits in one shot and the bricks play a melody that rises with your combo."],
+          ["Build your run", "Every 10 levels, pick 1 of 3 upgrades: extra balls, power, lasers and more."],
+          ["Boss fights", "A giant brick drops every 25 levels. Take it down for diamonds."],
+          ["1000 Challenge levels", "Plus an endless mode with checkpoints and a daily challenge."],
+          ["New bricks", "Triangle, round, explosive, moving and steel bricks, plus +1 ball rings."],
+          ["Daily rewards & missions", "A 7-day streak, three fresh missions every day and dozens of ball skins."]
+        ],
+        "steps": [
+          ["Drag", "Touch the screen and drag to aim."],
+          ["Release", "Let go to fire a stream of balls."],
+          ["Survive", "Break the bricks before they reach the bottom."]
+        ],
+        "tags": ["Android", "Free", "Offline", "Arcade"],
+        "facts": [["Languages", "10"]],
+        "shot_alts": ["One shot. Hundreds of bounces.", "New bricks, new angles", "Explosive chain reactions", "Pick your upgrades", "Daily rewards & missions", "1000 challenge levels"]
+      },
+      "pl": {
+        "name": "Neon Bounce",
+        "full_name": "Neon Bounce: Brick Breaker",
+        "tagline": "Celuj, strzelaj i odbijaj setki kul. Rozbijaj bloki, rób combo, pokonuj bossy!",
+        "summary": "Neonowe zbijanie bloków: jeden strzał wypuszcza setki kul, które odbijają się po planszy — a każde trafienie gra nutę.",
+        "description": [
+          "Celuj, strzelaj i patrz, jak setki kul odbijają się po świecącej, neonowej planszy. Każde trafienie to nuta: łącz trafienia w jednym strzale, a bloki zagrają melodię, która rośnie razem z combo.",
+          "Co 10 poziomów wybierasz 1 z 3 ulepszeń — więcej kul, większa siła, lasery, chwila oddechu albo czystka dolnego rzędu — więc każda partia jest inna. Co 25 poziomów na planszę spada ogromny blok-boss. Rozbij go i zgarnij diamenty."
+        ],
+        "features": [
+          ["Trafienia, które grają", "Łącz trafienia w jednym strzale, a bloki zagrają melodię rosnącą z combo."],
+          ["Zbuduj swoją partię", "Co 10 poziomów wybierasz 1 z 3 ulepszeń: więcej kul, siła, lasery i nie tylko."],
+          ["Walki z bossami", "Co 25 poziomów spada ogromny blok. Rozbij go i zgarnij diamenty."],
+          ["1000 poziomów wyzwań", "Do tego tryb nieskończony z checkpointami i wyzwanie dnia."],
+          ["Nowe bloki", "Trójkątne, okrągłe, wybuchowe, ruchome i stalowe, a także pierścienie +1 kula."],
+          ["Nagrody i misje", "Seria 7 dni, trzy nowe misje dziennie i dziesiątki skinów kul."]
+        ],
+        "steps": [
+          ["Przeciągnij", "Dotknij ekranu i przeciągnij, żeby wycelować."],
+          ["Puść", "Puść, żeby wystrzelić serię kul."],
+          ["Przetrwaj", "Rozbij bloki, zanim dotrą na dół."]
+        ],
+        "tags": ["Android", "Za darmo", "Offline", "Arcade"],
+        "facts": [["Języki", "10"]],
+        "shot_alts": ["Jeden strzał. Setki odbić.", "Nowe bloki, nowe kąty", "Wybuchowe reakcje łańcuchowe", "Wybieraj ulepszenia", "Nagrody i misje co dzień", "1000 poziomów wyzwań"]
+      }
+    },
+    {
+      "slug": "block-down",
+      "old_slugs": ["cannon-shoot-block-down", "cannon-shoot-block-down-2"],
+      "status": "released",
+      "orientation": "landscape",
+      "theme": { "accent": "#ffc93c", "ink": "#2a1b00", "bg": "#4b5fd8", "bg2": "#1f1d4d" },
+      "play_url": "https://play.google.com/store/apps/details?id=com.FD432Games",
+      "cover": "block-down-cover.webp",
+      "video": {
+        "src": "block-down-trailer.mp4",
+        "poster": "block-down-poster.webp",
+        "width": 1920, "height": 1080
+      },
+      "shots": ["block-down-1.webp", "block-down-2.webp", "block-down-3.webp", "block-down-4.webp", "block-down-5.webp", "block-down-6.webp", "block-down-7.webp", "block-down-8.webp"],
+      "shot_size": [1600, 900],
+      "en": {
+        "name": "Block Down",
+        "full_name": "Block Down: Cannon Smash",
+        "tagline": "Aim your cannon, pull the trigger and watch the tower crumble!",
+        "summary": "A physics puzzle game with one simple goal: knock every block off the platform — using as few cannonballs as possible.",
+        "description": [
+          "Block Down is a physics puzzle game about one simple goal: knock every block off the platform. Every level is a small puzzle — find the weak spot, use as few cannonballs as possible and earn all three stars.",
+          "Light the TNT for huge chain reactions, pop balloons, topple dominoes and shatter glass and ice. Levels are short, so it's perfect for a quick break — and it works offline. Can you get three stars on every level?"
+        ],
+        "features": [
+          ["70 levels, 7 worlds", "Hand-made levels: wood, TNT, glass, ice & balloons, stone, dominoes & seesaws."],
+          ["Real physics", "Every shot plays out differently. TNT blocks set off huge chain reactions."],
+          ["Special balls", "Bombs, triple shots, heavy and piercing balls."],
+          ["Upgrades", "Bigger blasts, coin bonus, longer aim and extra balls."],
+          ["Endless & daily", "An endless mode, a new Daily Challenge every day and a 7-day reward streak."],
+          ["Three stars", "Use fewer shots for a better score — up to 3 stars per level."]
+        ],
+        "steps": [
+          ["Aim", "Drag anywhere — the dotted line shows your shot."],
+          ["Fire", "Tap FIRE to launch the cannonball."],
+          ["Clear the platform", "Knock all the blocks off before you run out of shots."]
+        ],
+        "tags": ["Android", "Free", "Offline", "Physics", "Puzzle"],
+        "facts": [["Levels", "70 + endless"]],
+        "shot_alts": ["Huge chain reactions", "Pop balloons, drop the blocks", "Dominoes and seesaws", "Launch TNT into the tower!", "Shatter glass and ice", "Get 3 stars on every level", "Special balls and upgrades", "Endless mode and daily challenge"]
+      },
+      "pl": {
+        "name": "Block Down",
+        "full_name": "Block Down: Cannon Smash",
+        "tagline": "Wyceluj armatę, strzelaj i patrz, jak wieża się rozsypuje!",
+        "summary": "Fizyczna gra logiczna z jednym prostym celem: zrzuć wszystkie klocki z platformy — zużywając jak najmniej kul.",
+        "description": [
+          "Block Down to fizyczna gra logiczna z jednym prostym celem: zrzuć wszystkie klocki z platformy. Każdy poziom to mała łamigłówka — znajdź słaby punkt, zużyj jak najmniej kul i zdobądź trzy gwiazdki.",
+          "Odpalaj TNT i wywołuj reakcje łańcuchowe, przebijaj balony, przewracaj domino, rozbijaj szkło i lód. Poziomy są krótkie, więc idealnie pasują na chwilę przerwy — a gra działa offline. Zdobędziesz trzy gwiazdki na każdym poziomie?"
+        ],
+        "features": [
+          ["70 poziomów, 7 światów", "Ręcznie zaprojektowane: drewno, TNT, szkło, lód i balony, kamień, domino i huśtawki."],
+          ["Prawdziwa fizyka", "Każdy strzał kończy się inaczej. Klocki TNT wywołują reakcje łańcuchowe."],
+          ["Specjalne kule", "Bomby, potrójne, ciężkie i przebijające."],
+          ["Ulepszenia", "Większe wybuchy, bonus monet, dłuższy celownik i dodatkowe kule."],
+          ["Bez końca i codziennie", "Tryb bez końca, codzienne wyzwanie i nagrody za 7-dniową serię."],
+          ["Trzy gwiazdki", "Im mniej strzałów, tym lepiej — do 3 gwiazdek za poziom."]
+        ],
+        "steps": [
+          ["Wyceluj", "Przeciągnij palcem w dowolnym miejscu — kropki pokazują tor lotu."],
+          ["Strzelaj", "Naciśnij FIRE, aby wystrzelić."],
+          ["Oczyść platformę", "Zrzuć wszystkie klocki, zanim skończą się kule."]
+        ],
+        "tags": ["Android", "Za darmo", "Offline", "Fizyka", "Logiczna"],
+        "facts": [["Poziomy", "70 + bez końca"]],
+        "shot_alts": ["Ogromne reakcje łańcuchowe", "Przebijaj balony, zrzucaj klocki", "Domino i huśtawki", "Wystrzel TNT w wieżę!", "Rozbijaj szkło i lód", "Zdobądź 3 gwiazdki na każdym poziomie", "Specjalne kule i ulepszenia", "Tryb bez końca i codzienne wyzwanie"]
+      }
+    },
+    {
+      "slug": "stealth-game",
+      "status": "dev",
+      "orientation": "landscape",
+      "theme": { "accent": "#5cc8e0", "ink": "#03191e", "bg": "#22392c", "bg2": "#101c15" },
+      "play_url": "",
+      "cover": "stealth-1.webp",
+      "shots": ["stealth-1.webp"],
+      "en": {
+        "name": "Stealth Game",
+        "tagline": "A low-poly stealth action game.",
+        "summary": "Sneak through a low-poly military camp, stay out of sight and choose your moment. Working title — we'll share more soon."
+      },
+      "pl": {
+        "name": "Stealth Game",
+        "tagline": "Skradanka akcji w stylu low-poly.",
+        "summary": "Przemknij przez obóz wojskowy w stylu low-poly, nie daj się zauważyć i wybierz właściwy moment. Tytuł roboczy — więcej już wkrótce."
+      }
+    }
+  ]
+}

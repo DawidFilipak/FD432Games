@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FD432Games">
+  <path fill="#FFB21A" d="M35 10H10.5a4.5 4.5 0 0 0 0 9H26v8H14.5a4.5 4.5 0 0 0 0 9H26v15.5a2.5 2.5 0 0 0 2.5 2.5H35z"/>
+  <path fill="#0B0D12" fill-rule="evenodd" d="M35 10h4a22 22 0 0 1 0 44h-4zm0 9h4a13 13 0 0 1 0 26h-4z"/>
+  <circle cx="42.5" cy="32" r="4.5" fill="#FFB21A"/>
+</svg>
