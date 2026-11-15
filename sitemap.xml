@@ -24,4 +24,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://fd432games.com/block-down/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://fd432games.com/pl/block-down/"/>
   </url>
+  <url><loc>https://fd432games.com/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fd432games.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://fd432games.com/pl/privacy/"/>
+  </url>
+  <url><loc>https://fd432games.com/pl/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fd432games.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://fd432games.com/pl/privacy/"/>
+  </url>
 </urlset>

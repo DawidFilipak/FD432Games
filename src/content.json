@@ -4,6 +4,20 @@
     "name": "FD432Games"
   },
 
+  "privacy": {
+    "updated": "2026-11-15",
+    "owner": "Dawid Filipak",
+    "country": { "en": "Poland", "pl": "Polska" },
+    "email": "fd432games@gmail.com",
+    "services": [
+      { "id": "ads", "en": "Ads (AdMob)", "pl": "Reklamy (AdMob)" },
+      { "id": "analytics", "en": "Statistics (Firebase)", "pl": "Statystyki (Firebase)" },
+      { "id": "crashlytics", "en": "Crash reports (Firebase)", "pl": "Raporty awarii (Firebase)" },
+      { "id": "iap", "en": "In-app purchases (Google Play)", "pl": "Zakupy (Google Play)" },
+      { "id": "notifications", "en": "Notifications (local)", "pl": "Powiado­mienia (lokalne)" }
+    ]
+  },
+
   "ui": {
     "en": {
       "locale": "en_US",
@@ -48,7 +62,13 @@
       "close": "Close",
       "rights": "All rights reserved.",
       "footer_games": "Games",
-      "footer_studio": "Studio"
+      "footer_studio": "Studio",
+      "footer_privacy": "Privacy policy",
+      "privacy_title": "Privacy policy",
+      "privacy_desc": "Privacy policy for FD432Games mobile games: what data is processed, by whom, why, and how to change your consent or delete your data.",
+      "col_game": "Game",
+      "yes": "Yes",
+      "no": "No"
     },
     "pl": {
       "locale": "pl_PL",
@@ -93,7 +113,13 @@
       "close": "Zamknij",
       "rights": "Wszelkie prawa zastrzeżone.",
       "footer_games": "Gry",
-      "footer_studio": "Studio"
+      "footer_studio": "Studio",
+      "footer_privacy": "Polityka prywatności",
+      "privacy_title": "Polityka prywatności",
+      "privacy_desc": "Polityka prywatności gier mobilnych FD432Games: jakie dane są przetwarzane, przez kogo, w jakim celu i jak zmienić zgodę albo usunąć dane.",
+      "col_game": "Gra",
+      "yes": "Tak",
+      "no": "Nie"
     }
   },
 
@@ -105,6 +131,11 @@
       "orientation": "portrait",
       "theme": { "accent": "#2ee6f0", "ink": "#00242a", "bg": "#2c2470", "bg2": "#120f36" },
       "play_url": "https://play.google.com/store/apps/details?id=com.FD432Games.Shootingballsintoblocks",
+      "package": "com.FD432Games.Shootingballsintoblocks",
+      "privacy": {
+        "services": ["ads", "analytics", "crashlytics", "iap", "notifications"],
+        "consent_path": { "en": "Settings → Privacy → Consent settings", "pl": "Ustawienia → Prywatność → Ustawienia zgody" }
+      },
       "cover": "neon-bounce-cover.webp",
       "video": {
         "src": { "en": "neon-bounce-en.mp4", "pl": "neon-bounce-pl.mp4" },
@@ -176,6 +207,11 @@
       "orientation": "landscape",
       "theme": { "accent": "#ffc93c", "ink": "#2a1b00", "bg": "#4b5fd8", "bg2": "#1f1d4d" },
       "play_url": "https://play.google.com/store/apps/details?id=com.FD432Games",
+      "package": "com.FD432Games",
+      "privacy": {
+        "services": ["ads"],
+        "consent_path": { "en": "the PRIVACY button in the main menu", "pl": "przycisk PRIVACY w menu głównym" }
+      },
       "cover": "block-down-cover.webp",
       "video": {
         "src": "block-down-trailer.mp4",

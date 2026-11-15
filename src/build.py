@@ -207,6 +207,7 @@ def footer(lang, p):
     <nav class="footer-links" aria-label="Footer">
       <a href="{home}#games">{t['footer_games']}</a>
       <a href="{home}#studio">{t['footer_studio']}</a>
+      <a href="{home}privacy/">{t['footer_privacy']}</a>
     </nav>
   </div>
 </footer>
@@ -478,6 +479,81 @@ def game_page(g, lang):
 
 # ---------------------------------------------------------------- misc pages
 
+MONTHS = {
+    "en": ["January", "February", "March", "April", "May", "June", "July",
+           "August", "September", "October", "November", "December"],
+    "pl": ["stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca",
+           "sierpnia", "września", "października", "listopada", "grudnia"],
+}
+
+
+def format_date(iso, lang):
+    d = datetime.date.fromisoformat(iso)
+    return f"{d.day} {MONTHS[lang][d.month - 1]} {d.year}"
+
+
+def privacy_page(lang):
+    """One privacy policy for all games. Text: src/privacy/<lang>.html, data: content.json."""
+    t = UI[lang]
+    pv = DATA["privacy"]
+    p = "../" if lang == "en" else "../../"
+    home = f"{p}{lang_dir(lang)}"
+    games = [g for g in GAMES if g.get("privacy")]
+    services = pv["services"]
+
+    head_cells = "".join(f'<th scope="col">{esc(s[lang])}</th>' for s in services)
+    rows = []
+    for g in games:
+        c = g[lang]
+        used = set(g["privacy"]["services"])
+        cells = "".join(
+            f'<td class="yes"><span aria-hidden="true">✓</span><span class="sr-only">{t["yes"]}</span></td>'
+            if s["id"] in used else
+            f'<td class="no"><span aria-hidden="true">—</span><span class="sr-only">{t["no"]}</span></td>'
+            for s in services
+        )
+        name = esc(c.get("full_name", c["name"]))
+        rows.append(f'<tr><th scope="row"><a href="{home}{g["slug"]}/">{name}</a>'
+                    f'<small>{esc(g.get("package", ""))}</small></th>{cells}</tr>')
+    table = (f'<div class="table-wrap"><table class="legal-table games-table">'
+             f'<thead><tr><th scope="col">{t["col_game"]}</th>{head_cells}</tr></thead>'
+             f'<tbody>{"".join(rows)}</tbody></table></div>')
+    consent = "".join(
+        f'<li><strong>{esc(g[lang]["name"])}:</strong> {esc(g["privacy"]["consent_path"][lang])}</li>'
+        for g in games if g["privacy"].get("consent_path")
+    )
+
+    text = (ROOT / "src" / "privacy" / f"{lang}.html").read_text(encoding="utf-8")
+    text = text.split("-->", 1)[1].strip() if text.lstrip().startswith("<!--") else text
+    for key, val in {
+        "updated": format_date(pv["updated"], lang),
+        "owner": esc(pv["owner"]),
+        "country": esc(per_lang(pv["country"], lang)),
+        "email": esc(pv["email"]),
+        "games_table": table,
+        "consent_list": f'<ul class="consent-list">{consent}</ul>',
+    }.items():
+        text = text.replace("{{" + key + "}}", val)
+    assert "{{" not in text, "unfilled placeholder in privacy text"
+
+    body = f"""
+<body>
+{header(lang, 'privacy/', p)}
+<main id="main" class="legal">
+  <div class="wrap legal-inner">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="{home}">FD432Games</a><span aria-hidden="true">/</span><span aria-current="page">{t['privacy_title']}</span>
+    </nav>
+    <h1>{t['privacy_title']}</h1>
+    {text}
+  </div>
+</main>
+"""
+    alt = "../pl/privacy/" if lang == "en" else None
+    return head(lang, "privacy/", f"{t['privacy_title']} — {SITE['name']}", t["privacy_desc"], p,
+                redirect_alt=alt) + body + footer(lang, p)
+
+
 def not_found_page():
     p = "/"  # 404.html is served at any URL depth, so links must be root-absolute
     en, pl = UI["en"], UI["pl"]
@@ -529,7 +605,7 @@ def redirect_page(target):
 
 
 def sitemap():
-    paths = [""] + [g["slug"] + "/" for g in GAMES if g["status"] != "dev"]
+    paths = [""] + [g["slug"] + "/" for g in GAMES if g["status"] != "dev"] + ["privacy/"]
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for path in paths:
@@ -558,6 +634,7 @@ def main():
         for g in GAMES:
             if g["status"] != "dev":
                 write(f"{lang_dir(lang)}{g['slug']}/index.html", game_page(g, lang))
+        write(f"{lang_dir(lang)}privacy/index.html", privacy_page(lang))
     for old, new in REDIRECTS.items():
         write(f"{old}/index.html", redirect_page(new))
     write("404.html", not_found_page())
