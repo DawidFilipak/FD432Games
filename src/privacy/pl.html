@@ -48,14 +48,18 @@
 <p>Lista partnerów reklamowych Google jest dostępna w oknie zgody w grze. Więcej informacji: <a href="https://policies.google.com/technologies/ads?hl=pl" rel="noopener">Jak Google wykorzystuje informacje w reklamach</a>.</p>
 
 <h3>5.2 Statystyki: Google Analytics dla Firebase</h3>
-<p>Korzystamy z Google Analytics dla Firebase, żeby zrozumieć, jak gracze grają: na przykład które poziomy są za trudne, w którym momencie gracze kończą grę i z jakich ulepszeń i misji korzystają. Przetwarzane są zdarzenia z gry (rozpoczęcie, ukończenie lub przegranie poziomu, wybór ulepszenia, ukończenie misji, zakup), identyfikator instalacji aplikacji, model urządzenia, wersja systemu, język, przybliżony kraj i długość sesji.</p>
+<p>Korzystamy z Google Analytics dla Firebase, żeby zrozumieć, jak gracze grają: na przykład które poziomy są za trudne, w którym momencie gracze kończą grę i z jakich ulepszeń i misji korzystają. Przetwarzane są zdarzenia z gry, identyfikator instalacji aplikacji, model urządzenia, wersja systemu, język, przybliżony kraj i długość sesji. Zdarzenia zależą od gry:</p>
+<ul>
+  <li><strong>Neon Bounce:</strong> rozpoczęcie, ukończenie lub przegranie poziomu, wybór ulepszenia, ukończenie misji, zakup.</li>
+  <li><strong>Block Down:</strong> start i koniec poziomu (wynik, gwiazdki, liczba strzałów, czas), zarobione i wydane monety w grze, użycie specjalnych kul, wyświetlenia reklam, samouczek, nagroda dzienna, tryb bez końca i wyzwanie dnia.</li>
+</ul>
 <p>W EOG, Wielkiej Brytanii i Szwajcarii zapisywanie danych analitycznych jest domyślnie wyłączone i włącza się dopiero po wyrażeniu zgody w oknie zgody. Bez zgody Analytics działa w ograniczonym trybie zgody Google, bez identyfikatorów analitycznych.</p>
 
 <h3>5.3 Raporty awarii: Firebase Crashlytics</h3>
 <p>Jeśli gra się zawiesi albo wystąpi błąd, Firebase Crashlytics wysyła raport: log błędu i ślad stosu, identyfikator instalacji Crashlytics, model urządzenia, wersję systemu i stan urządzenia w chwili awarii (np. ilość wolnej pamięci, orientację ekranu). Raportów używamy wyłącznie do znajdowania i naprawiania błędów.</p>
 
 <h3>5.4 Zakupy w aplikacji: Google Play</h3>
-<p>W niektórych grach możesz kupić opcję taką jak „Bez reklam”. Płatność w całości obsługuje Google Play; gra komunikuje się z Google Play przez bibliotekę Unity In-App Purchasing. Nigdy nie widzimy danych Twojej karty ani płatności. Gra otrzymuje tylko potwierdzenie, który produkt został kupiony, oraz token zakupu, żeby odblokować produkt i przywrócić go po ponownej instalacji gry.</p>
+<p>W niektórych grach możesz kupić opcję taką jak „Bez reklam”. Obecnie dotyczy to tylko Neon Bounce; Block Down nie ma płatności. Płatność w całości obsługuje Google Play; gra komunikuje się z Google Play przez bibliotekę Unity In-App Purchasing. Nigdy nie widzimy danych Twojej karty ani płatności. Gra otrzymuje tylko potwierdzenie, który produkt został kupiony, oraz token zakupu, żeby odblokować produkt i przywrócić go po ponownej instalacji gry.</p>
 
 <h3>5.5 Powiadomienia lokalne</h3>
 <p>Niektóre gry mogą wyświetlać przypomnienia, np. o dziennej nagrodzie. Są one planowane na Twoim telefonie: nie biorą w tym udziału żadne serwery i nie są wysyłane żadne dane. Możesz je wyłączyć w ustawieniach powiadomień Androida.</p>

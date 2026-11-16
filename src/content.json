@@ -5,7 +5,7 @@
   },
 
   "privacy": {
-    "updated": "2026-11-15",
+    "updated": "2026-11-16",
     "owner": "Dawid Filipak",
     "country": { "en": "Poland", "pl": "Polska" },
     "email": "fd432games@gmail.com",
@@ -209,8 +209,8 @@
       "play_url": "https://play.google.com/store/apps/details?id=com.FD432Games",
       "package": "com.FD432Games",
       "privacy": {
-        "services": ["ads"],
-        "consent_path": { "en": "the PRIVACY button in the main menu", "pl": "przycisk PRIVACY w menu głównym" }
+        "services": ["ads", "analytics", "crashlytics"],
+        "consent_path": { "en": "the PRIVACY button in the main menu (shown only to players in the EEA, the UK and Switzerland); the PRIVACY POLICY button in the main menu opens this page", "pl": "przycisk PRIVACY w menu głównym (widoczny tylko dla graczy z EOG, Wielkiej Brytanii i Szwajcarii); przycisk PRIVACY POLICY w menu głównym otwiera tę stronę" }
       },
       "cover": "block-down-cover.webp",
       "video": {

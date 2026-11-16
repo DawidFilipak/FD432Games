@@ -48,14 +48,18 @@
 <p>The list of Google's advertising partners is available in the consent form in the game. More information: <a href="https://policies.google.com/technologies/ads" rel="noopener">How Google uses information in advertising</a>.</p>
 
 <h3>5.2 Usage statistics: Google Analytics for Firebase</h3>
-<p>We use Google Analytics for Firebase to understand how the game is played: for example which levels are too hard, where players stop and which upgrades and missions are used. This involves game events (level started, completed or failed, upgrade chosen, mission completed, purchase made), an app instance identifier, device model, operating system version, language, approximate country and session length.</p>
+<p>We use Google Analytics for Firebase to understand how the game is played: for example which levels are too hard, where players stop and which upgrades and missions are used. This involves game events, an app instance identifier, device model, operating system version, language, approximate country and session length. The events depend on the game:</p>
+<ul>
+  <li><strong>Neon Bounce:</strong> level started, completed or failed, upgrade chosen, mission completed, purchase made.</li>
+  <li><strong>Block Down:</strong> level start and end (result, stars, number of shots, time), in-game coins earned and spent, special balls used, ads shown, tutorial progress, daily reward, endless mode and daily challenge.</li>
+</ul>
 <p>In the EEA, the UK and Switzerland, analytics storage is turned off by default and is turned on only if you consent in the consent form. Without consent, Analytics runs in Google's restricted consent mode, without analytics identifiers.</p>
 
 <h3>5.3 Crash reports: Firebase Crashlytics</h3>
 <p>If the game crashes or hits an error, Firebase Crashlytics sends a report: the error log and stack trace, a Crashlytics installation identifier, device model, operating system version and the state of the device at the time of the crash (for example free memory and screen orientation). We use these reports only to find and fix bugs.</p>
 
 <h3>5.4 In-app purchases: Google Play</h3>
-<p>Some games let you buy an option such as “Remove ads”. The payment is handled entirely by Google Play; the game uses Unity In-App Purchasing to communicate with Google Play. We never see your card or payment details. The game receives only a confirmation of which product was bought and a purchase token, so it can unlock the product and restore it after you reinstall the game.</p>
+<p>Some games let you buy an option such as “Remove ads”. Currently this applies only to Neon Bounce; Block Down has no payments. The payment is handled entirely by Google Play; the game uses Unity In-App Purchasing to communicate with Google Play. We never see your card or payment details. The game receives only a confirmation of which product was bought and a purchase token, so it can unlock the product and restore it after you reinstall the game.</p>
 
 <h3>5.5 Local notifications</h3>
 <p>Some games can show reminders, for example about a daily reward. These reminders are scheduled on your phone; no server is involved and no data is sent. You can turn them off in Android's notification settings.</p>
